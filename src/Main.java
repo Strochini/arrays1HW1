@@ -35,5 +35,35 @@ public class Main {
             }
         }
 
+        // Task 3
+
+        System.out.println("");
+
+        for (int a = arrays0.length -1; a >= 0; a--) {
+            if (arrays0[a] == arrays0[0]) {
+                System.out.print(arrays0[a]);
+            } else {
+                System.out.print(arrays0[a] + ",");
+            }
+        }
+        System.out.println("");
+
+        for (int b = arrays1.length -1; b >= 0; b--) {
+            if (arrays1[b] == arrays1[0]) {
+                System.out.print(arrays1[b]);
+            } else {
+                System.out.print(arrays1[b] + ",");
+            }
+        }
+        System.out.println("");
+
+        for (int c = arrays2.length -1; c >= 0; c--) {
+            if (arrays2[c] == arrays2[0]) {
+
+                System.out.print(arrays2[c]);
+            }else {
+                System.out.print(arrays2[c] + ",");
+            }
+        }
     }
 }
